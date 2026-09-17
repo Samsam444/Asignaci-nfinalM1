@@ -8,7 +8,9 @@
 
         body {
             margin: 0;
-            padding-top: 60px; 
+            padding-top: 0px;
+            height: 300vh;
+            background-color: #caf6cc;
         }
 
         header {
@@ -17,11 +19,25 @@
             left: 0;
             width: 100%;
             height: 150px;
-            background-color: #333;
+            background-color: #08574f;
             display: flex;
             align-items: center;
             justify-content: center;
-            z-index: 1000; 
+            z-index: 1000;
+        }
+
+        .title{
+            color : white;
+            font-size: 15px;
+            width: 800px;
+            display: inline-flex;
+            flex-direction: row;
+        }
+
+        #subtitle{
+            padding-top: 30px;
+            padding-left: 5px;
+            font-size:bold;
         }
 
         header a {
@@ -32,15 +48,165 @@
         }
 
         header a:hover {
-            color: #ff9900;
+            color: #caf6cc;
         }
 
-        section {
-            padding: 40px;
-            height: 80vh; 
+        section{
+            padding-top: 160px;
+            width: 100%;
+            height: 200vh;
+            background-color: #caf6cc;
+        }
+
+         h2{
             display: flex;
-            flex-direction: column;
             justify-content: center;
+            align-items: center;
+            font-size: 40px;
+            color:#08574f;
         }
 
-        #inicio { background-color: #f4f4f4; }
+        .container{
+            background-color: #1ea772;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            width: 100%;
+            height: 412px;
+        }
+
+        .img{
+            width: 100%;
+            height: 412px;
+            object-fit: cover;
+        }
+
+        .text{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding-bottom: 50px;
+            font-size: 30px;
+            gap: 10px;
+            color: #f4f4f4;
+        }
+
+        .text h3{
+            font-weight: 700;
+            padding-top: 20px;
+        }
+
+        .text p{
+            text-align: center;
+            max-width: 500px;
+            font-weight: 400;
+            padding-bottom: 20px;
+        }
+
+        button{
+            background-color:#1ea772;
+            border:#08574f 2.5px solid;
+            border-radius: 8px;
+            width: 170px;
+            height: 60px;
+            color: #f4f4f4;
+            font-size: 25px;
+        }
+
+        button:hover{
+            background-color: #1c9365;
+            cursor: pointer;
+            transition: all .3s;
+        }
+
+        .sec2{
+            padding-top: 0px;
+            width: 100%;
+            height: 80vh;
+            background-color: #caf6cc;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+
+        .container-art{margin-top: 5px}
+
+        .img-art{
+            width: 310px;
+            height: 270px;
+            border-radius: 6px;
+        }
+
+        article{
+            margin-left: 15px;
+            margin-right: 15px;
+            max-width: 310px;
+            max-height: 500px;
+            border: #08574f 4px solid;
+            border-radius: 8px;
+            background-color: #aeffe0e6;
+        }
+
+        article:hover{
+            background-color: #aeffe0e6;
+            cursor: pointer;
+            box-shadow: 0 0 3px 3px #16a395dd;
+            transition: all .2s;
+        }
+
+        .text-art{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 5px;
+            font-size: 17px;
+            color: #063732;
+        }
+
+        .text-art h4{
+            font-weight: bold;
+        }
+
+        .text-art p{
+            margin-top: 3px;
+            font-weight: 600;
+        }
+
+        #espacio{
+            margin-top: 3px;
+            padding-bottom: 5px;
+        }
+
+        .bottom{
+            padding-left: 20px;
+            padding-bottom: 10px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .boton{
+            margin-left: 55px;
+            max-width: 120px;
+            max-height: 40px ;
+            font-size: 20px;
+            font-weight: 500;
+            background-color: #08574f;
+            border: none;
+        }
+
+        .boton:hover{
+            background-color: #063732;
+        }
+
+        #footer{
+            background-color: #063732;
+            height: 20vh;
+        }
+
+        #text-footer{
+            padding-top: 60px;
+            padding-left: 15px;
+            font-size: 20px;
+            color: #f4f4f4;
+        }

@@ -17,11 +17,26 @@ html {
             left: 0;
             width: 100%;
             height: 150px;
-            background-color: #333;
+            background-color: #08574f;
             display: flex;
             align-items: center;
             justify-content: center;
-            z-index: 1000; 
+            z-index: 1000;
+        }
+
+        
+        .title{
+            color : white;
+            font-size: 15px;
+            width: 800px;
+            display: inline-flex;
+            flex-direction: row;
+        }
+
+        #subtitle{
+            padding-top: 20px;
+            padding-left: 5px;
+            font-size:bold;
         }
 
         header a {
@@ -32,15 +47,27 @@ html {
         }
 
         header a:hover {
-            color: #ff9900;
+            color: #4cb934;
         }
 
-        section {
-            padding: 40px;
-            height: 80vh; 
+        section{
+            padding-top: 150px;
+            width: 100%;
+            height: 80vh;
+            background-color: #caf6cc;
             display: flex;
+            justify-content: flex-start;
             flex-direction: column;
-            justify-content: center;
+        }
+        
+        form {
+            margin-left: 50px;
+            margin-top: 50px;
         }
 
-        #contacto { background-color: #d1d1d1; }
+        input{
+            width: 700px;
+            height: 30px;
+        }
+
+        
