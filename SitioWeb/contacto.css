@@ -9,7 +9,7 @@ html {
         body {
             margin: 0;
             padding-top: 60px; 
-            width: 100%;;
+            width: 100%;
         }
 
         header {
@@ -156,10 +156,10 @@ html {
             color: #f4f4f4
         }
 
-        @media (max-width: 768px) {
+      @media (max-width: 768px) {
     .columna {
         width: 100% !important;
         float: none;
     }
-}
+} 
         
