@@ -7,10 +7,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="img.jpg/">
     <title>MarcKets</title>
 </head>
 <body>
     <header>
+        <div>
+            <img class="logo" src="logo.png" alt="logo">
+        </div>
         <div class="title">
             <h1>¡Contáctanos!</h1>
             <span id="subtitle">Rellena el siguiente formulario si tienes alguna duda y te contactaremos lo antes posible.</span>
@@ -20,7 +25,9 @@
             <a href="contacto.html">Contacto</a>
         </nav>
     </header>
-    <section id="contacto">
+    <section>
+        <div class="contacto">
+            <div>
             <form>
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required>
@@ -31,11 +38,24 @@
                 <br>
                 <br>
                 <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" required></textarea>
+                <textarea id="mensaje" cols="80" rows="3" name="mensaje" required placeholder="Escribe tu comentario o duda"></textarea>
                 <br>
                 <br>
                 <button type="submit">Enviar</button>
+                <br>
+                <br>
             </form>
-        </section>
+            </div>
+            <div>
+                <img class="img-contact" src="img.jpg/ucontacto.jpeg" alt="contacto">
+            </div>
+        </div>
+    </section>
+    <div id="footer">
+        <footer>
+            <p class="text-footer">¡No olvides seguirnos en Instagram como @macrketss!</p>
+            <span class="text-footer">Sitio web creado y diseñado por Samantha Hernández</span>
+            <p id="copyright">Copyright © 2026 MarcKets. Todos los derechos reservados</p>
+        </footer>
 </body>
 </html>
